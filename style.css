@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'montserrat' , sans-serif;
+}
+main img {
+    border-radius: 25px;
+}
+header h2, header li {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+header img {
+    width: 10vw;
+    padding: 1rem;
+}
+header {
+    background-color: #db6c43;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+}
+header li {
+    cursor: pointer;
+    padding: 1rem;
+}
+header li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+header section {
+    display: flex;
+    align-items: center;
+}
+.grama {
+    background-color: #f0d7ce;
+}
+main section {
+    display: flex;
+    color: #360f01;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.5rem 0;
+}
+.grama img , .casa img {
+    width: 40vw;
+}
+.grama p {
+    width: 35rem;
+    font-size: 20px;
+}
+.casa {
+    background-color: #db6c43;
+}
+.casa p {
+    width: 35rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.passaros {
+    background-color: #f0d7ce;
+}
+.passaros figure {
+    width: 100%;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.passaros img {
+    width: 23vw;
+    padding: 5px;
+}
+.passaros img:hover {
+    border: 5px solid #db6c43;
+    padding: 0;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #db6c43;
+    color: #fff;
+    padding: 1rem 0;
+}
+.social img {
+    width: 3.5vw;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.footer-item {
+    width: 33vw;
+}
+footer img {
+    width: 7vw;
+}
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+footer figure {
+    display: flex;
+    justify-content: center;
+}
